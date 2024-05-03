@@ -9,7 +9,7 @@ var emailList = ['antoniofan@gmail.com', 'antoniofan1@gmail.com', 'antoniofan2@g
 
 //PROMPT UTENTE
 
-var emailList =(prompt(' Inserire email di accesso') )
+var emailUtente = (prompt(' Inserire email di accesso') )
 
 //SHOW EMAIL IN LOG
 
@@ -22,10 +22,7 @@ var emailExist = false;
 
 for (var i = 0; i < emailList.length; i++){
     
-    var emails = emailList[i];
-    
-    
-        if (emails == emailList[i]){
+        if (emailUtente == emailList[i]){
 
             emailExist = true;
         }
